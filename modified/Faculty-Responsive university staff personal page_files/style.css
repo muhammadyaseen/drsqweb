@@ -651,6 +651,14 @@ ul.timeline li .data .text {
 	box-shadow: inset 0px 3px 5px -3px #ccc;
 }
 
+.ul-withdetails li .details .text-left {
+	width: 600px;
+}
+
+.ul-withdetails li .details .pics-right .project-details-img {
+	width: 200px;
+	height: 200px;
+}
 /*************************************************
  * lab partnerts
  **************************************************/
