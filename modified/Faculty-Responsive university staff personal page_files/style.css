@@ -169,14 +169,14 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
 }
 
 #profile .title h2 {
-	font-size: 28px;
+	font-size: 24px;
 	font-weight: 300;
 	color: #fff;
 	margin: 20px 0 10px 0;
 }
 
 #profile .title h3 {
-	font-size: 18px;
+	font-size: 16px;
 	font-weight: 300;
 	color: #aaa;
 	margin: 0px 0 10px 0;
@@ -384,7 +384,7 @@ ul#navigation li .icon {
 	padding:25px;
 }
 .biothumb .overlay h1{
-	font-size: 45px;
+	font-size: 35px;
 }
 
 
@@ -652,13 +652,41 @@ ul.timeline li .data .text {
 }
 
 .ul-withdetails li .details .text-left {
-	width: 600px;
+	width: 50%;
+	float: left;
+}
+
+.ul-withdetails li .details .pics-right {
+	width: 50%;
+	float: right;
 }
 
 .ul-withdetails li .details .pics-right .project-details-img {
-	width: 200px;
-	height: 200px;
+    margin: 10px 5px 5px 15px;
+    border: 1px solid #f0f0f0;
+    padding: 5px;
+    box-shadow: -2px 2px 7px 0px #eaeaea;
 }
+
+.img-size-200x200 {
+	width: 200px;
+    height: 200px;
+}
+.img-size-150x150 {
+	width: 150px;
+    height: 150px;
+}
+.img-size-300x150 {
+	width: 300px;
+    height: 150px;
+}
+
+.img-size-300x300 {
+	width: 300px;
+    height: 300px;
+}
+
+
 /*************************************************
  * lab partnerts
  **************************************************/
@@ -1187,3 +1215,16 @@ ul.timeline .date {
 }
 
 }
+
+/***************************
+* DEBUG STTYLES
+***************************/
+
+.border-red {
+	border: 1px solid red;
+}
+
+.border-black {
+	border: 1px solid black;
+}
+
